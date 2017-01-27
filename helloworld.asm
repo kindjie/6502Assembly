@@ -6,8 +6,6 @@
 
 ;Iterates over "HELLO WORLD!"  message, assigning characters to
 ;screen memory until end of message.
-	;*=$1000		;Set program counter.
-
 	screen=$0400	;Memory address for screen.
 	messagelen=12	;Number of characters in message.
 	toupper=$3f	;Bits to set character to uppercase.
