@@ -7,7 +7,7 @@ X64 := x64
 	acme --cpu 6510 --format cbm --outfile $@ $<
 
 %.d64: %.prg
-	$(C1541) -format foo,id d64 $@ -write $<
+	$(C1541) -format default,lodis d64 $@ -write $<
 
 %: %.d64
 	$(X64) $<
