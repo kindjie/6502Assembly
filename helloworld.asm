@@ -1,5 +1,5 @@
 ;Hello World Example Project
-;
+
 ;Boot loader
 !source "loader.asm"
 +start_at $1000
