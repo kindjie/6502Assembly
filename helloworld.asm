@@ -1,11 +1,11 @@
 ;Hello World Example Project
 
 ;Boot loader
-!source "loader.asm"
+!source "./libs/loader.asm"
 +start_at $1000
 
 ;Screen utilities
-!source "screen.asm"
+!source "./libs/screen.asm"
 
 ;Initialization
 	jmp init

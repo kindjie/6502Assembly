@@ -1,14 +1,14 @@
 ;Interrupts Example Project
 
 ;Boot Loader
-!source "loader.asm"
+!source "./libs/loader.asm"
 +start_at $1000
 
 ;Screen Utilities
-!source "screen.asm"
+!source "./libs/screen.asm"
 
 ;Interrupt Utilities
-!source "interrupt.asm"
+!source "./libs/interrupt.asm"
 
 ;Initialization
 	raster_irq_line=$00
