@@ -51,5 +51,5 @@ system interrupt subroutine, and define a custom interrupt subroutine.
 This project shows how to render tiles consisting of NxN characters, coloured 
 per tile.
 
-![ex_charsets](./readme/ex_charsets.png)
+![ex_charset](./readme/ex_charset.png)
 
