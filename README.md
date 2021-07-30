@@ -9,6 +9,14 @@ You will need to install the **ACME** assembler and **Vice** C64 emulator.
 On **OSX**, you can either use **Homebrew** to install these dependencies,
 or the **DUST** command line utility.
 
+On **Linux**, use the **AUR** on **Arch**-based distros. Ensure **contrib**
+is added to your `sources.list` on **Debian/Ubuntu**-based distros.
+
+On **Windows 10 WSL2** without GUI app support, install the Windows version
+of Vice and add the `\bin` folder to your PATH env variable. Add `export 
+C1541=c1541.exe` and `export X64=x64sc.exe` to an appropriate rc file for
+your WSL2 distro.
+
 ### Homebrew
 Follow instructions at http://brew.sh/ if you do not have Homebrew installed, 
 then:
